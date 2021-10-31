@@ -4,5 +4,6 @@ public class StudentInfo {
     public static void main(String[] args) {
         System.out.println("Николай Первушин");
         System.out.println("02.09.2021");
+
     }
 }
