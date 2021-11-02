@@ -22,7 +22,6 @@ public class MathFunc {
             System.out.println(total);
 
             int result3 = MathFunc.func1(100);
-            int total2 = result3 + result2;
-            System.out.println(total2);
+            System.out.println(result3);
         }
     }
