@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void distance1() {
+    public void whenX12Y13X24Y26then3dot6() {
         /* входные данные */
         int x1 = 2;
         int y1 = 3;
@@ -24,7 +24,7 @@ public class PointTest {
     }
 
     @Test
-    public void distance2() {
+    public void whenX11Y12X23Y24then2dot8() {
         /* входные данные */
         int x1 = 1;
         int y1 = 2;
@@ -40,14 +40,14 @@ public class PointTest {
     }
 
     @Test
-    public void distance3() {
+    public void whenX15Y18X26Y22then6() {
         /* входные данные */
         int x1 = 5;
         int y1 = 8;
         int x2 = 6;
         int y2 = 2;
         /* ожидаемое значение */
-        double expected = 6.0;
+        double expected = 6;
         /* вызов проверяемого метода*/
         double out = Point.distance(x1, y1, x2, y2);
         /* сравнения */
