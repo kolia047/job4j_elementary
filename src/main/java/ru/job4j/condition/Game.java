@@ -9,7 +9,7 @@ public class Game {
         if (name.equals("tanks")) {
             System.out.println("Start - tanks");
         }
-        if (name.equals( "tetris")) {
+        if (name.equals("tetris")) {
             System.out.println("Start - tetris");
         }
     }
