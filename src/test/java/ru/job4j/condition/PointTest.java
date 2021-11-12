@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void whenX12Y13X24Y26then3dot6() {
+    public void when23to46then3dot6() {
         /* входные данные */
         int x1 = 2;
         int y1 = 3;
@@ -24,7 +24,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX11Y12X23Y24then2dot8() {
+    public void when12to34then2dot8() {
         /* входные данные */
         int x1 = 1;
         int y1 = 2;
@@ -40,7 +40,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX15Y18X26Y22then6() {
+    public void when58to62then6() {
         /* входные данные */
         int x1 = 5;
         int y1 = 8;
