@@ -16,7 +16,7 @@ public class Counter {
         int i;
         for (i = start; i <= finish; i++) {
             if (i % 2 == 0) {
-                sum = sum + i ;
+                sum = sum + i;
             }
         }
         return sum;
