@@ -20,7 +20,7 @@ public class FactorialTest {
         public void whenCalculateFactorialForZeroThenOne() {
             int n = 0;
             int result = Factorial.calc(n);
-            int expected =1;
+            int expected = 1;
             Assert.assertEquals(result, expected);
         }
     }
