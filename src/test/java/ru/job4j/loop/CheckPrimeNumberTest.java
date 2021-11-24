@@ -13,6 +13,7 @@ public class CheckPrimeNumberTest {
         Assert.assertTrue(result);
     }
 
+
     @Test
     public void when4() {
         int number = 4;
