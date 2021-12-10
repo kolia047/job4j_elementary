@@ -14,6 +14,7 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenArrayHas8ThenMinus1() {
         int[] data = {6, 1, 8, 2};
