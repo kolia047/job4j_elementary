@@ -13,6 +13,7 @@ public class TurnTest {
         int[] expected = new int[] {2, 6, 1, 4};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
         int[] input = new int[] {1, 2, 3, 4, 5};
