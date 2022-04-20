@@ -23,7 +23,7 @@ public class MatrixCheckTest {
                 {' ', ' ', 'X'},
                 {' ', ' ', ' '},
         };
-        int row = 1;
+        int row = 0;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
