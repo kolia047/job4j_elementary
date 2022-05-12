@@ -14,6 +14,7 @@ public class AttackRookTest {
         assertThat(check, is(true));
     }
 
+
     @Test
     public void checkTrue1() {
         boolean check = AttackRook.check("H4", "H3");
