@@ -8,7 +8,7 @@ public class WeeklySalary {
             if (hours[i] > 8) {
                 summaOvertime = summaOvertime + ((hours[i] - 8) * 15);
                 summaOvertime = summaOvertime + 80;
-            } else if (hours[i] <= 8 ) {
+            } else if (hours[i] <= 8) {
                 summa = summa + (hours[i] * 10);
             }
         }
@@ -16,7 +16,7 @@ public class WeeklySalary {
             if (hours[i] > 8) {
                 summaOvertime = summaOvertime + ((hours[i] - 8) * 30);
                 summaOvertime = summaOvertime + 160;
-            } else if (hours[i] <= 8 ) {
+            } else if (hours[i] <= 8) {
                 summa = summa + (hours[i] * 20);
             }
         }

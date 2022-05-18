@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-
 public class AttackRookTest {
 
     @Test
@@ -13,7 +12,6 @@ public class AttackRookTest {
         boolean check = AttackRook.check("A8", "E8");
         assertThat(check, is(true));
     }
-
 
     @Test
     public void checkTrue1() {
