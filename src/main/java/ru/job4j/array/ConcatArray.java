@@ -10,7 +10,6 @@ public class ConcatArray {
         for (int j = 0; j < b.length; j++) {
             c++;
         }
-
         return d + c;
     }
 }

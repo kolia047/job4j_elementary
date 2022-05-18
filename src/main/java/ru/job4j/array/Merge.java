@@ -7,11 +7,9 @@ public class Merge {
         for (int i = 0; i < left.length; i++) {
             rsl[i] = left[i];
             number++;
-
         }
         for (int j = 0; j < right.length; j++) {
             rsl[number++] = right[j];
-
         }
         for (int a = 0; a < rsl.length - 1; a++) {
             if (rsl[a] > rsl[a + 1]) {
@@ -21,6 +19,5 @@ public class Merge {
             }
         }
         return rsl;
-
     }
 }
