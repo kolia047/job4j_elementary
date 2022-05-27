@@ -37,8 +37,8 @@ public class PointTest {
     @Test
     public void when315to122then3dot74() {
         double expected = 3.74;
-        Point a = new Point(3, 1,5);
-        Point b = new Point(1, 2,2);
+        Point a = new Point(3,1,5);
+        Point b = new Point(1,2,2);
         double dist = a.distance3d(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
