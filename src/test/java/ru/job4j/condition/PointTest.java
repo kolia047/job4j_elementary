@@ -35,11 +35,11 @@ public class PointTest {
     }
 
     @Test
-    public void when21to41then2() {
-        double expected = 2.0;
-        Point a = new Point(2, 1);
-        Point b = new Point(4, 1);
-        double dist = a.distance(b);
+    public void when315to122then3dot74() {
+        double expected = 3.74;
+        Point a = new Point(3, 1,5);
+        Point b = new Point(1, 2,2);
+        double dist = a.distance3d(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
 }
